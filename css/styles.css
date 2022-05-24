@@ -9,11 +9,11 @@
 
 body{
     background: #FFFFFF;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 /*------------HEDER-----------------*/
 .header-logo{
-    font-family: 'Raleway'sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -22,7 +22,7 @@ body{
 }
 
 .ingredient{
-    font-family: 'Raleway'sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -59,7 +59,7 @@ body{
 
 .header-link:hover,
 .header-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .link{
@@ -94,14 +94,14 @@ body{
 }
 
 .hero-title{
-    font-family: 'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 }
 
 .hero-btn{
@@ -109,9 +109,6 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
@@ -122,23 +119,17 @@ body{
     color:#188CE8
 }
 /*---------------About---------------*/
-.about{
-    background: #E5E5E5;
-}
-
 .about-title-benefits{
-    font-family: 'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--second-title-color);
 }
 
 .about-text-benefits{
-    font-family: 'Roboto' sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -146,13 +137,12 @@ body{
 }
 
 .about-title-services{
-    font-family: 'Roboto'sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-title-color);
 }
 
 .team{
@@ -160,13 +150,13 @@ body{
 }
 
 .team-title{
-    font-family: 'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-title-color);
 }
 
 .team-item{
@@ -174,7 +164,7 @@ body{
 }
 
 .team-item-title{
-    font-family: 'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -184,9 +174,6 @@ body{
 }
 
 .team-item-text{
-    font-family: 'Roboto'sans-serif;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
@@ -194,79 +181,61 @@ body{
 }
 
 /*-----------Projects--------------*/
-
-.projects{
-    background: #E5E5E5;
-} 
 .projects-btn-all{
     font-family: inherit;
-    position: absolute;
-    width: 73px;
-    height: 38px;
-    left: 495px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     background: #2196F3;
     border-radius: 4px;
 }
 
 .projects-btn-web{
     font-family: inherit;
-    position: absolute;
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .projects-btn-applications{
     font-family: inherit;
-    position: absolute;
-    width: 145px;
-    height: 38px;
-    left: 712px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .projects-btn-design{
     font-family: inherit;
-    position: absolute;
-    width: 103px;
-    height: 38px;
-    left: 865px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .projects-btn-marketing{
     font-family: inherit;
-    position: absolute;
-    width: 130px;
-    height: 38px;
-    left: 976px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .projects-item-gallery-title{
-    font-family: 'Roboto' sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.0;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--second-title-color);
 }
 
 .projects-gallery-text{
-    font-family: 'Roboto'sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -286,7 +255,7 @@ body{
 }
 
 .footer-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -295,7 +264,7 @@ body{
 }
 
 .ingredient {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -304,7 +273,6 @@ body{
 }
 
 .footer-map-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -313,7 +281,6 @@ body{
 
 .footer-mail-link,
 .footer-tel-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
