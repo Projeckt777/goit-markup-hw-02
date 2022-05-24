@@ -79,7 +79,7 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575;
 }
 
 .header-tel:hover,
@@ -94,7 +94,6 @@ body{
 }
 
 .hero-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -111,7 +110,7 @@ body{
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-btn-background);
 }
 
 .hero-btn:hover,
@@ -120,7 +119,6 @@ body{
 }
 /*---------------About---------------*/
 .about-title-benefits{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -164,7 +162,6 @@ body{
 }
 
 .team-item-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -183,6 +180,7 @@ body{
 /*-----------Projects--------------*/
 .projects-btn-all{
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -192,6 +190,7 @@ body{
 
 .projects-btn-web{
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -201,6 +200,7 @@ body{
 
 .projects-btn-applications{
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -210,6 +210,7 @@ body{
 
 .projects-btn-design{
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -219,6 +220,7 @@ body{
 
 .projects-btn-marketing{
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
